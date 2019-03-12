@@ -19,7 +19,7 @@ if len(sys.argv) != 3:
  print("\n\033[34;1m[*]\033[0m python "+sys.argv[0]+" list.txt scrip.html")
  exit(0)
 
-print("\n\033[34;1m[*]\033[0m Mass WebDav \n\033[34;1m[*]\033[0m Author : Boychongzen aka Xroot\n\033[34;1m[*]\033[0m Github : https://github.com/boychongzen18\n")
+print("\n\033[34;1m[*]\033[0m Mass-Webdav \n\033[34;1m[*]\033[0m Author : Boychongzen aka Xroot\n\033[34;1m[*]\033[0m Github : https://github.com/boychongzen18\n")
 
 target = open(sys.argv[1], 'r')
 while True:
