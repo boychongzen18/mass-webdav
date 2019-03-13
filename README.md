@@ -21,16 +21,11 @@ chmod +x webdav.py
 python2 webdav.py target.txt crot.html
 
 # Screenshot Via Termux 
-
 ![be](https://raw.githubusercontent.com/boychongzen18/mass-webdav/master/termux-tampilan.png)
-
-# Screenshot Via Termux 
-Mass Webdav
+# Screenshot Via Termux Mass Webdav
 ![be](https://raw.githubusercontent.com/boychongzen18/mass-webdav/master/termux-scanning-target.png)
-
 # Screenshot Via Termux Vuln Webdav
 ![be](https://raw.githubusercontent.com/boychongzen18/mass-webdav/master/termux-target.png)
-
 ===============================================================================
 
 # Eksekusi via Window
